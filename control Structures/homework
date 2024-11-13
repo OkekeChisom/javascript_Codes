@@ -1,0 +1,31 @@
+const actions = ["start", "stop", "pause"]; // First create an Array variable
+let userAction = "start";   // create another variable to single out an item in the array 
+let isLoggedIn = true;  // this is a variable that declares true
+
+switch (true) {
+    case actions.includes(userAction) && isLoggedIn :  // so if the useAction and the isLOggedin are both correct then 
+       console.log("Action:" + userAction);  // the action will be to 'start' which will be console logged
+       break;
+    case actions.includes(userAction) && !isLoggedIn :  // but if the userAction is correct and the (!isLoggedIn) which means not loggedIn which is wrong
+        console.log("please log in to perform this action"); // then it will console log 'please log in to perform this action'
+        break;
+    default:
+        console.log("No valid case found."); // this can only take place if the subject matter in the switch is false or another thing
+
+
+
+}
+
+const d = new Date();
+console.log(d)
+  // for loop code
+const stud = ["simon", "demon", "weapon", "zion"];  // create an array with items
+let file = ""; // then create a variable with an  empty string
+// next call on the for loop , create a variable with the value o, and state that if the value o is lesser than 
+// the first variable with arrays then it should add, then call on the variable name with the empty string and put the first 
+// variable and the loop variable as shown with + beside and an empty string and console log the variable with the empty string
+for ( let o = 0; o < stud.length; o++){
+    file = stud[o] + "";
+    console.log(file);
+
+}
