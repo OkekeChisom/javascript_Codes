@@ -16,6 +16,10 @@ switch (true) {
 
 }
 
+
+
+
+
 const d = new Date();
 console.log(d)
   // for loop code
