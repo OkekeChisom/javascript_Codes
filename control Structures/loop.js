@@ -42,7 +42,7 @@ while ( i < 5 ) {
  
 
 // Assignment
-
+// I created a function so that where ever i call the function name the class details appears, function is really powerful and fun to use
 
 
 
