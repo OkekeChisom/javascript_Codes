@@ -23,7 +23,6 @@ const students = [
 
 for ( let i = 0; i < students.length; i++) {
     console.log("students:", students[i].name, "Grade:", students[i].grade);
-
 }
 
 const AboutMe = [
@@ -43,18 +42,26 @@ while ( i < 5 ) {
  
 
 // Assignment
-const ClassDetails = [
-    {Name: "Okeke Chisom", Age: 20, School: "New Horizon College", Course: "FullStack Web Development" , Location: "Lagos Nigeria", Sex: "Male"},
-    {Name: "Daniel Simon", Age: 22, School: "New Horizon College", Course: "Frontend Web Development" , Location: "Lagos Nigeria", Sex: "Male" },
-    {Name: "Philip Oluwa", Age: 21, School: "New Horizon College", Course: "Backend Web Development" , Location: "Lagos Nigeria", Sex: "Male"},
-    {Name: "Linda Gutter", Age: 19, School: "New Horizon College", Course: "FullStack Web Development" , Location: "Lagos Nigeria", Sex: "Female"},
-    {Name: "Jerome Onyema", Age: 25,School: "New Horizon College", Course: "Frontend Web Development" , Location: "Lagos Nigeria", Sex: "Male"},
-    {Name: "Miranda Chaos", Age: 30,School: "New Horizon College", Course: "UI/UX Web Development" , Location: "Lagos Nigeria", Sex: "Female"}
-]
-for ( let i = 0; i < ClassDetails.length; i++) {
-    console.log("Class Details:", "Name:",  ClassDetails[i].Name, " Age:",    ClassDetails[i].Age, " School:", ClassDetails[i].School, " Course:", ClassDetails[i].Course, " Address:", ClassDetails[i].Location, " Gender:", ClassDetails[i].Sex)
+
+
+
+
+function detail(){
+    const ClassDetails = [
+        {Name: "Okeke Chisom", Age: 20, School: "New Horizon College", Course: "FullStack Web Development" , Location: "Lagos Nigeria", Sex: "Male"},
+        {Name: "Daniel Simon", Age: 22, School: "New Horizon College", Course: "Frontend Web Development" , Location: "Lagos Nigeria", Sex: "Male" },
+        {Name: "Philip Oluwa", Age: 21, School: "New Horizon College", Course: "Backend Web Development" , Location: "Lagos Nigeria", Sex: "Male"},
+        {Name: "Linda Gutter", Age: 19, School: "New Horizon College", Course: "FullStack Web Development" , Location: "Lagos Nigeria", Sex: "Female"},
+        {Name: "Jerome Onyema", Age: 25,School: "New Horizon College", Course: "Frontend Web Development" , Location: "Lagos Nigeria", Sex: "Male"},
+        {Name: "Miranda Chaos", Age: 30,School: "New Horizon College", Course: "UI/UX Web Development" , Location: "Lagos Nigeria", Sex: "Female"}
+    ]
+    for ( let i = 0; i < ClassDetails.length; i++) {
+        console.log("Class Details:", "Name:",  ClassDetails[i].Name, " Age:",    ClassDetails[i].Age, " School:", ClassDetails[i].School, " Course:", ClassDetails[i].Course, " Address:", ClassDetails[i].Location, " Gender:", ClassDetails[i].Sex)
+}
 
 }
+detail();
+
 
 
 
